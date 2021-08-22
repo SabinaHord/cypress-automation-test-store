@@ -1,7 +1,7 @@
 
 /// <reference types="cypress" />
 
-describe("Test Contact Us form via Automation Test Store", () => {
+describe("Hello! Test Contact Us form via Automation Test Store", () => {
     before(function() {
         //cy.viewport(550, 750)
         cy.fixture("userDetails").as("user")
